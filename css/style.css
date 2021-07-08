@@ -27,18 +27,28 @@
     font-weight: 600;
 }
 .navbar-light .navbar-nav .nav-link {
-    /* color: rgba(0,0,0,.55); */
-    color: #fff;
+ color: #fff;
     font-size: 17px;
     font-weight: 500;
     font-family: 'Roboto';
     letter-spacing: 1px;
-    padding: 0 15px;
+    margin: 0 15px;
     }
  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
 
     color: #fff;
+
 }
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+     color: #fff;
+     border-bottom: 2px solid #c7b276;
+     
+    }
+
+
+
 .border-line{
 	margin-top: 55px ;
 	 color: #fff;
@@ -46,6 +56,8 @@
     border-right: 5px solid #fff;
     text-align: right;
     border-radius: 2px;
+    animation: shakeY;
+    animation-duration: 2s;
 
 }
 .my-intro{
@@ -76,7 +88,12 @@
     color: #fff;
     padding: 6px 15px;
     margin-top: 17px;
-
+    font-weight: 600;
+ }
+ .btn-cv:hover{
+    background: #eee;
+    color: #333;
+    border: 2px solid #000;
  }
  /*About section*/
  .about{
@@ -97,6 +114,12 @@
     font-size: 20px;
     line-height: 30px;
     text-transform: capitalize;
+ }
+ .img-animation{
+    animation:backInLeft ;
+ }
+ .right-animation{
+    animation: backInRight;
  }
  .skill{
     background: #fff;
@@ -175,6 +198,10 @@
     font-family: 'Roboto';
     letter-spacing: 1px;
 }
+.btn-send:hover{
+    background: #eee;
+    color: #333;
+}
 .contact-details{
     margin-top: 50px;
 }
@@ -199,6 +226,10 @@
     text-align: left;
 
 }
+.social ul li a{
+   text-decoration: none;
+   color: #eee;
+}
 .social .fab{
 width: 40px;
     height: 40px;
@@ -206,4 +237,8 @@ width: 40px;
     line-height: 40px;
     text-align: center;
     margin: 0 10px 0 0;
+}
+.social .fab:hover{
+    background: #eee;
+    color: #000;
 }
