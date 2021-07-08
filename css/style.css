@@ -15,16 +15,16 @@
  	background-size: cover;
  	/*background-repeat: no-repeat;*/
  	padding: 10px 0 200px;
-     back
+
    
  }
  
  .navbar-light .navbar-brand {
 
     color: #fff;
-    font-family: 'roboto';
-    font-size: 20px;
-    font-weight: 600;
+    font-family : 'roboto';
+    font-size : 20px;
+    font-weight : 600;
 }
 .navbar-light .navbar-nav .nav-link {
  color: #fff;
@@ -39,16 +39,11 @@
     color: #fff;
 
 }
-
-
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
      color: #fff;
      border-bottom: 2px solid #c7b276;
-     
-    }
 
-
-
+}
 .border-line{
 	margin-top: 55px ;
 	 color: #fff;
